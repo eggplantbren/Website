@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- CSS classes -->
+    <style type="text/css">
+        .small { font-size: 0.9em }
+
+        /* To keep the page narrowish */
+        div.content { width: 600px }
+    </style>
+    <title>Resources for research students</title>
+</head>
+
+<body>
+    <div class="content">
+
+    <!-- Welcome paragraph -->
+    <h1>Resources for Research Students</h1>
+    <p>
+        Here, I'll collect links to resources for learning various tools
+        and methods, some of which will be useful for research students working
+        with me. I'll generally only recommend things I've used or read myself,
+        or that have been recommended to me by people I trust.
+        Some of these are online resources, others are books that may or may
+        not be available at the Auckland uni library or at Auckland libraries
+        in general. I also have a copy of some of these that you can borrow if
+        you're my student. Feel free to search for other resources as well
+        (and let me know if you find any excellent ones).
+    </p>
+
+    <p>
+        <a href="#bayes">Bayesian Inference</a><br>
+        <a href="#nestedsampling">Nested Sampling</a><br>
+        <a href="#dns">Diffusive Nested Sampling</a><br>
+        <a href="#computing">Computing</a><br>
+        <a href="#writing">Writing</a>
+    </p>
+
+    <!-- Resources for Bayesian inference -->
+    <a name="bayes"></a><h2>Bayesian inference</h2>
+
+    <p class="small">
+        <b><a href="https://www.amazon.com/Data-Analysis-Bayesian-Devinderjit-Sivia/dp/0198568320" target="_blank">Data Analysis: A Bayesian Tutorial</a></b> by Sivia and Skilling.
+        Good for beginners with a physics background. Has Nested Sampling in it
+        too, but those sections are more challenging.<br>
+    </p>
+
+    <p class="small">
+        <b><a href="https://www.amazon.com/Bayesian-Logical-Analysis-Physical-Sciences/dp/0521150124/" target="_blank">Bayesian Logical Data Analysis for the Physical Sciences</a></b>
+        by Phil Gregory. A bit more comprehensive than Sivia, and includes more
+        detail on the Metropolis algorithm. Again, good for people with some
+        physics background.
+    </p>
+
+    <p class="small">
+        <b><a href="https://www.amazon.com/Practical-Bayesian-Inference-Physical-Scientists/dp/1316642216/" target="_blank">Practical Bayesian Inference: A Primer for Physical Scientists</a></b>
+        by Coryn Bailer-Jones. A new addition, and a good introduction with
+        a more computational focus than Sivia, which is useful these days.
+    </p>
+
+
+    <p class="small">
+        <b><a href="https://www.amazon.com/Advanced-Theory-Statistics-Vol-Inference/dp/0340807520/" target="_blank">Kendall's Advanced Theory of Statistics: Volume 2B: Bayesian Inference</a></b>
+        by O'Hagan and Forster. A nice and fairly comprehensive textbook. The
+        style and notation, and the examples given, are more like what
+        statisticians use, so this is good for people from a statistics
+        background.
+    </p>
+
+    <p class="small">
+        <b><a href="https://www.stat.auckland.ac.nz/~brewer/stats331.pdf" target="_blank">STATS 331 Lecture notes</a></b> by me!
+        A gentle introduction, with some R and JAGS. Aimed mostly at
+        statistics students but should work for anyone.
+        You can also
+        <a href="https://www.youtube.com/playlist?list=PLuRpZIQQRQedb2GM2WhKSEzojGN-BIIR9" target="_blank">watch all of the 2017 lectures</a> online.
+    </p>
+
+    <p class="small">
+        <b><a href="https://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884/" target="_blank">Doing Bayesian Data Analysis</a></b> by John Kruschke.
+        Probably the best full textbook for beginners with a statistics
+        background.
+    </p>
+
+    <p class="small">
+        <b><a href="https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/" target="_blank">Information Theory, Inference, and Learning Algorithms</a></b>
+        by David MacKay (RIP). A very readable and engaging textbook.
+        Covers a wide range of topics apart from Bayes.
+        And there's a <a href="http://www.inference.phy.cam.ac.uk/itprnn/book.html" target="_blank">free, legal online PDF file</a> of it!
+    </p>
+
+    <a name="nestedsampling"></a><h2>Nested Sampling</h2>
+
+    <p class="small">
+        Nested Sampling is my favourite Bayesian computation algorithm. I like
+        to use it in combination with the Metropolis algorithm.
+        My book chapter
+        <a href="https://www.stat.auckland.ac.nz/~brewer/wsbook.pdf"
+           target="new">Bayesian inference and computation: A beginner's
+                        guide</a>
+        has a fairly gentle introduction. The corresponding Python code
+        is available <a href="https://github.com/eggplantbren/NSwMCMC"
+                        target="new">here</a>, as is a recent translation
+        into R.
+    </p>
+
+    <p class="small">
+        The original Nested Sampling paper, by John Skilling, is very
+        useful, but isn't easy to read. There are a few different versions
+        floating around, but I usually use the one published in the
+        Bayesian Analysis journal.
+        <a href="http://projecteuclid.org/download/pdf_1/euclid.ba/1340370944"
+           target="new">Here it is</a>.
+    </p>
+
+    <p class="small">
+        I have an implementation of Nested Sampling
+        <a href="https://github.com/eggplantbren/NestedSampling.jl"
+            target="new">written in Julia</a>.
+        With <a href="http://jtobin.io/" target="new">Jared Tobin</a>, I also
+        wrote an implementation
+        <a href="https://github.com/eggplantbren/NestedSampling.hs"
+           target="new">in Haskell</a>.
+    </p>
+
+    <a name="dns"></a><h2>Diffusive Nested Sampling</h2>
+    <p class="small">
+        Diffusive Nested Sampling is an alternative to standard NS, that still
+        uses the Metropolis algorithm to move around. Here is the
+        <a href="https://arxiv.org/abs/1606.03757"
+           target="new">original paper describing the algorithm</a>,
+        the <a href="https://github.com/eggplantbren/DNest4"
+               target="new">software</a>, and the
+        <a href="https://github.com/eggplantbren/DNest4/raw/master/paper/static_pdf.pdf" target="new">paper describing the software</a>. I also made a
+        <a href="https://spee.ch/e66e014588bf8edf2b15d692fc23a20ed5e59c23/dnest4-quick-start"
+           target="_blank">quick start video</a> for DNest4.
+    </p>
+
+    <a name="computing"></a><h2>Computing</h2>
+    <p class="small">
+        It's worth getting good at using the command line of a Unix-like
+        operating system such as Mac OS X or Linux (e.g., Ubuntu).
+        If you only use Windows, that's okay, but it might be a bit more
+        annoying figuring out how to use certain things.
+    </p>
+
+    <p class="small">
+        I recommend learning and using a version control system such as
+        git. There probably isn't much point for a 30-point project student,
+        but beyond that, it's pretty indispensible.
+        <a href="http://rogerdudler.github.io/git-guide/" target="new">This
+            tutorial</a> seems like a promising starting point.
+    </p>
+
+   <p class="small">
+        My favourite book on C++ is
+        <a href="https://www.goodreads.com/book/show/11277418-professional-c"
+           target="new">Professional C++ by Marc Gregoire</a>.
+        It assumes you have a reasonable amount of programming experience.
+        If you're just starting out with C++,
+        <a href="https://www.learncpp.com/" target="_blank">this tutorial</a>
+        is pretty good. Once you're using C++ confidently,
+        <a href="https://cppreference.com" target="_new">cppreference.com</a>
+        is indispensible.
+    </p>
+
+   <p class="small">
+        My favourite book on Haskell is
+        <a href="https://www.goodreads.com/book/show/25587599-haskell-programming"
+           target="new">Haskell Programming from First Principles</a>
+        by Chris Allen and Julie Moronuki.
+    </p>
+
+   <p class="small">
+        I haven't read any books on Python, but I followed Allen Downey
+        on Twitter for a while so maybe <a href="https://www.goodreads.com/book/show/14514306-think-python?from_search=true" target="new">try his one</a>.
+        Use Python 3, and make sure anything you find is teaching it. Forget
+        about Python 2. A good Python distribution with useful packages for
+        scientific stuff is
+        <a href="https://www.continuum.io/downloads" target="new">Anaconda</a>. 
+    </p>
+
+   <p class="small">
+        Many of you will have learned one or two programming languages
+        before, but will have to learn another one in order to work well
+        with me. When I have had to do this in the past, especially
+        for numerical work, I've found various "cheat sheets" useful,
+        which show how to do the same thing in several different
+        languages, side by side. Here are a couple of links which
+        might help:<br><br>
+
+        <a href="http://mathesaurus.sourceforge.net/r-numpy.html"
+           target="new">NumPy for R programmers</a><br>
+        <a href="http://hyperpolyglot.org/" target="new">Hyperpolyglot</a>
+   </p>
+
+
+    <a name="writing"></a><h2>Writing</h2>
+    <p class="small">
+        You're going to have to write a thesis or dissertation. That's a lot of
+        writing, so learn something about writing! Here are a few resources
+        which might help. There are surely heaps more that I haven't read.<br><br>
+
+        <a href="https://www.amazon.com/Sense-Style-Thinking-Persons-Writing/dp/0143127799/ref=sr_1_1?ie=UTF8&qid=1546892852&sr=8-1&keywords=the+sense+of+style_+the+thinkin+-+steven+pinker"
+           target="_blank">The Sense of Style</a> by Steven Pinker.<br>
+        <a href="https://www.amazon.com/Elements-Style-4th-revisions/dp/B003LLFSPW/ref=sr_1_7?ie=UTF8&qid=1546892880&sr=8-7&keywords=strunk+and+white" target="_blank">The Elements of Style</a> by Strunk and White is considered a classic.
+    </p>
+
+    </div> <!-- The div around everything -->
+
+</body>
+
+</html>
