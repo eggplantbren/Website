@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":9,"title":"","author":"","fileName":"cv.pdf","bounds":[[909,1286],[909,1286],[909,1286],[909,1286],[909,1286],[909,1286],[909,1286],[909,1286],[909,1286]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
