@@ -7,10 +7,23 @@
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+
+  <!-- jquery and latex thing -->
+  <script src="jquery-3.4.0.min.js"></script>
+  <script src="jquery.jslatex.js"></script>
+  <script>
+    $(function () {
+        $(".latex").latex();
+    });
+  </script>
 </head>
 
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
+
+
+  <!-- For LaTeX -->
+
 
   <div id="main">
     <div id="header">
@@ -38,6 +51,41 @@
     </div>
     <div id="site_content">
       <div id="content">
+
+        <div class="post">
+            <h4>Trying out maths here</h4>
+            <p>2019-04-29</p>
+            <p>
+                When I moved my blog over here, I was a bit worried that I
+                wouldn't be able
+                to type LaTeX anymore. But that's not the case! Thanks to
+                <a href="http://blog.dreasgrech.com/2009/12/jslatex-jquery-plugin-to-directly-embed.html"
+                   target="_blank">this blog post</a>, I can now get equations
+                in here
+                very simply. Here are two good ones for you:
+                <div class="latex">  <!-- For LaTeX -->
+                    P(H \,|\, D, M) = \frac{P(H \,|\, M)P(D \,|\, H, M)}
+                                           {P(D \,|\, M)} \\
+                </div>
+                <br>
+                <div class="latex">  <!-- For LaTeX -->
+                    D_{\rm KL}\left(\boldsymbol{p} \,||\, \boldsymbol{q}\right)
+                    = -\sum_i p_i \log (p_i/q_i)
+                </div>
+                Come to think of it, those aren't as pretty as I'd like, so I
+                might want to switch to a different way in the future.            
+            </p>
+
+            <p>
+                While researching this, I also came across some PDF to HTML
+                converters. That sounds like a horrible idea, but some worked
+                a lot better than I thought. If you click on my CV at the
+                top right you'll get what looks like a PDF document but is
+                actually HTML! How cool.
+            </p>
+        </div>
+
+        <br><hr><br>
 
         <div class="post">
             <h4>Retiring the Plausibility Theory blog</h4>
