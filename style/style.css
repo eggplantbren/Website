@@ -156,10 +156,10 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #046E00;}
 
 #site_content
-{ width: 837px;
+{ width: 860px;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 20px 24px 20px 37px;
+  padding: 20px 20px 20px 20px;
   background: #FFF;} 
 
 .sidebar
