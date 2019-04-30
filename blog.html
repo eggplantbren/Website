@@ -49,7 +49,49 @@
       <div id="content">
 
 
-<div class="post">
+        <div class="post">
+            <h4>Conventions for wide priors in JAGS/BUGS</h4>
+            <p>2019-04-30</p>
+            <p>
+                I'm currently preparing to teach STATS 731, the graduate
+                Bayesian course here.
+                My first lecture was meant to be today but
+                I had to cancel it due to hoarseness following a throat
+                infection. Anyway, the existing course materials use a lot
+                of the traditional (in statistics) wide priors, stuff like this
+                for a location and scale parameter respectively:
+
+                <pre>beta ~ dnorm(0, 1.0E-4)</pre>
+                <pre>tau ~ dgamma(0.001, 0.001)</pre>
+                <pre>var <- 1/tau</pre>
+                <pre>sig <- sqrt(var)</pre>
+            </p>
+
+            <p>
+                In the 1990s, it was important to choose conjugate priors
+                to speed up the MCMC sampling, and in many cases (e.g.
+                regression) stuff like this was appropriate. It still works
+                today, too. However, in my experience students find the choice
+                of a prior a bit mysterious, and these are more obscure than
+                they need to be. Who has an intuition for what that gamma
+                prior looks like &mdash; even for tau, let alone sig (the
+                coordinate that's usually more interpretable).
+            </p>
+
+            <p>
+                In my lecture on Thursday I'm still going to use these priors
+                but I'm also going to (a) plot them, and (b) compare them
+                to uniform and log-uniform priors which they are fairly similar
+                to over a decent range of their parameter spaces. Hopefully this
+                will remove a bit of the shroud of mystery.
+            </p>
+        </div>
+
+        <br><hr><br>
+
+
+
+        <div class="post">
             <h4>Talk by Dallas Willard about worldviews</h4>
             <p>2019-04-30</p>
 
