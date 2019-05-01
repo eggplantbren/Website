@@ -163,7 +163,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #046E00;}
 
 #site_content
-{ width: 860px;
+{ max-width: 860px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 20px 20px 20px;
@@ -194,7 +194,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content
 { text-align: left;
-  width: 795px;
+  max-width: 795px;
   padding: 0;
   font-size: 1.1em;}
 
