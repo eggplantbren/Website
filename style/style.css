@@ -34,6 +34,13 @@ h4, h5, h6
   font: normal 120% arial, sans-serif;
   color: #046E00;}
 
+a.blog_title
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 115% arial, sans-serif;
+  text-decoration: none;
+  color: #046E00;}
+
 h5, h6
 { font: italic 95% arial, sans-serif;
   padding: 0 0 15px 0;
