@@ -6,10 +6,17 @@ html
 { margin: 0;
   padding: 0;}
 
+#header, #menubar, #footer, #site_content {
+  width:100%;
+  }
+
 body
 { font: normal 0.9em Arial, Helvetica, sans-serif;
   background: #1D1D1D;/* url(header.png) repeat;*/
-  color: #777;}
+  color: #777;
+  /*Alter width here: the 3 numbers are - Top, left and right, bottom*/
+  padding: 0 10% 5%;
+}
 
 p
 { padding: 0 0 20px 0;
@@ -101,7 +108,7 @@ ol li
   height: 240px;}
 
 #logo
-{ width: 825px;
+{ 
   position: relative;
   height: 168px;}
 
@@ -132,8 +139,7 @@ ol li
   color: #DDD;}
 
 #menubar
-{ width: 900px;
-  height: 72px;
+{ height: 72px;
   padding: 0;
   background: #FCD34C;} 
 
@@ -163,10 +169,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #046E00;}
 
 #site_content
-{ max-width: 860px;
-  overflow: hidden;
+{ overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 20px 20px 20px 20px;
   background: #FFF;} 
 
 .sidebar
@@ -194,8 +198,8 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #content
 { text-align: left;
-  max-width: 795px;
-  padding: 0;
+
+  padding: 5%;
   font-size: 1.1em;}
 
 #content ul
@@ -209,8 +213,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   line-height: 1.5em;}
 
 #footer
-{ width: 900px;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+{ font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
@@ -303,3 +306,27 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+@media only screen and (max-width: 1030px) {
+    ul#menu li a {
+      font-size:1.4vw;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    /* Uncomment this and change this if you want the width to change on smaller screen sizes and/or duplicate the media queries for other device sizes.
+    body {
+    padding: 0 10% 5%;
+  }
+    */
+}
+@media only screen and (max-width: 405px) {
+  ul#menu li a {
+    font-size:1.8vw;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+ 
+  body {
+  padding: 0 2% 5%;
+  }
+}
