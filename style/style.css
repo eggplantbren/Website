@@ -15,7 +15,7 @@ body
   background: #1D1D1D;/* url(header.png) repeat;*/
   color: #777;
   /*Alter width here: the 3 numbers are - Top, left and right, bottom*/
-  padding: 0 20% 5%;
+  padding: 0 23% 5%;
 }
 
 p
@@ -307,7 +307,7 @@ table tr td
   color: #47433F;
   border-top: 1px solid #FFF;}
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1400px) {
     ul#menu li a {
       font-size:1.4vw;
       padding-left: 10px;
