@@ -15,7 +15,7 @@ body
   background: #1D1D1D;/* url(header.png) repeat;*/
   color: #777;
   /*Alter width here: the 3 numbers are - Top, left and right, bottom*/
-  padding: 0 10% 5%;
+  padding: 0 20% 5%;
 }
 
 p
@@ -157,7 +157,7 @@ ul#menu li a
   display: block; 
   float: left; 
   height: 37px;
-  padding: 29px 26px 6px 26px;
+  padding: 29px 20px 6px 20px;
   text-align: center;
   color: #000000;
   text-transform: uppercase;
@@ -307,17 +307,15 @@ table tr td
   color: #47433F;
   border-top: 1px solid #FFF;}
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1250px) {
     ul#menu li a {
       font-size:1.4vw;
       padding-left: 10px;
       padding-right: 10px;
     }
-    /* Uncomment this and change this if you want the width to change on smaller screen sizes and/or duplicate the media queries for other device sizes.
     body {
     padding: 0 10% 5%;
   }
-    */
 }
 @media only screen and (max-width: 405px) {
   ul#menu li a {
