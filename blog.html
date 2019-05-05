@@ -51,6 +51,60 @@
 
 
 
+        <div class="post">
+            <a class="blog_title" href="#maxent-and-homogeneity" name="maxent-and-homogeneity">MaxEnt and homogeneity</a>
+            <p>2019-05-05</p>
+
+            <p>
+                I'm a bit unusual among Bayesians in that I still think the principle of maximum entropy
+                is both true and (occasionally) useful, and that its critics have thrown out the
+                baby with the bathwater. One of the chapters of my upcoming book,
+                if I finish it, will be about this issue, and related ones such as where
+                MaxEnt constraints come from in practice.
+            </p>
+            <p>
+                Some of the bad criticisms of MaxEnt focus on the fact that you can easily get
+                bad predictions from it, in an ex-post sense (i.e., a scoring rule could give
+                the MaxEnt distribution a worse score than some other distribution). I don't know
+                why this would surprise anybody. Any broad prior, especially on a
+                high dimensional space,
+                is usually bad in this sense. MaxEnt produces minimal updates of these, so
+                inherits this property.
+            </p>
+
+            <p>
+                One interesting feature of MaxEnt distributions is that they often lead to
+                macroscopically homogenous predictions. For example, let \(\{x_i\}_{i=1}^N\)
+                be a batsman's
+                next \(N\) scores in cricket, so the set of possibilities is
+                \(S = \{0, 1, 2, 3, ...\}^N\). Starting with a flat prior over \(S\) and then
+                doing MaxEnt with an expected value constraint like
+            </p>
+
+            <p>
+                $$\left<\frac{1}{N}\sum_{i=1}^N x_i\right> = \mu,$$
+            </p>
+
+            <p>
+                makes the posterior distribution a product of iid geometrics with means
+                \(\mu\). This implies a high posterior probability for the
+                sequences of scores looking macroscopically homogeneous, because the
+                constraints never put in any time-dependent information.
+            </p>
+
+            <p>
+                Now, the actual sequence of scores \(\{x_i\}_{i=1}^N\)
+                may have a trend or whatever. That doesn't mean that MaxEnt is invalid.
+                It still correctly updates the flat prior over \(S\) in a minimal
+                fashion, which is what it claims to do.
+                The issue is that almost all possible sequences (elements of \(S\))
+                look macroscopically flat,
+                and reality, being complicated,
+                happened to produce a sequence that was atypical in that
+                sense.
+            </p>
+        </div>
+
 
         <div class="post">
             <a class="blog_title" href="#lovely-email-received" name="lovely-email-received">Lovely email received!</a>
