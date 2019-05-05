@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<!-- My manually updated RSS feed -->
+
+<channel>
+
+    <title>Brendon J. Brewer's website and blog</title>
+    <link>https://www.brendonbrewer.com/</link>
+    <description>Bayesian statistics and other things of interest to
+                 Brendon J. Brewer</description>
+
+    <item>
+        <guid>https://www.brendonbrewer.com/blog.html#maxent-and-homogeneity</guid>
+        <title>MaxEnt and homogeneity</title>
+        <link>https://www.brendonbrewer.com/blog.html#maxent-and-homogeneity</link>
+        <description>New blog post: MaxEnt and homogeneity</description>
+    </item>
+
+    <item>
+        <guid>https://www.brendonbrewer.com/blog.html#lovely-email-received</guid>
+        <title>Lovely email received!</title>
+        <link>https://www.brendonbrewer.com/blog.html#lovely-email-received</link>
+        <description>New blog post: Lovely email received!</description>
+    </item>
+
+    <item>
+        <guid>https://www.brendonbrewer.com/blog.html#conventions-wide-priors</guid>
+        <title>Conventions for wide priors in JAGS/BUGS</title>
+        <link>https://www.brendonbrewer.com/blog.html#conventions-wide-priors</link>
+        <description>New blog post: Conventions for wide priors in JAGS/BUGS</description>
+    </item>
+
+    <item>
+        <guid>https://www.brendonbrewer.com/blog.html#talk-dallas-willard</guid>
+        <title>Talk by Dallas Willard about worldviews</title>
+        <link>https://www.brendonbrewer.com/blog.html#talk-dallas-willard</link>
+        <description>New blog post: Talk by Dallas Willard about worldviews</description>
+    </item>
+
+    <item>
+        <guid>https://www.brendonbrewer.com/blog.html#trying-maths-here</guid>
+        <title>Trying out maths here</title>
+        <link>https://www.brendonbrewer.com/blog.html#trying-maths-here</link>
+        <description>New blog post: Trying out maths here</description>
+    </item>
+
+    <item>
+        <guid>https://www.brendonbrewer.com/blog.html#retiring-blog</guid>
+        <title>Retiring the Plausibility Theory blog</title>
+        <link>https://www.brendonbrewer.com/blog.html#retiring-blog</link>
+        <description>New blog post: Retiring the Plausibility Theory blog</description>
+    </item>
+</channel>
+
+</rss>
