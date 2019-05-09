@@ -14,7 +14,9 @@
         <guid>https://www.brendonbrewer.com/blog.html#pewdiepie-lbry</guid>
         <title>How many PewDiePies are there on LBRY?</title>
         <link>https://www.brendonbrewer.com/blog.html#pewdiepie-lbry</link>
-        <description>How many PewDiePies are there on LBRY?</description>
+        <description>Answer: 36. That's 36 people who don't understand the LBRY
+                naming/URL system, which works using a form of auction that
+                provides no incentive to squatting...</description>
     </item>
 
 
@@ -24,7 +26,17 @@
         <guid>https://www.brendonbrewer.com/blog.html#singing-project</guid>
         <title>Singing in other people's backyards</title>
         <link>https://www.brendonbrewer.com/blog.html#singing-project</link>
-        <description>Singing in other people's backyards</description>
+        <description>A quote from statistician John Tukey that is a cliché for a
+                reason
+                is "the best thing about being a statistician is that you get
+                to
+                play in everyone's backyard". Sometimes, other people invite
+                you
+                to their backyards,
+                like
+                geophysicist Mike Rowe did. Other times, you just invite
+                yourself
+                over...</description>
     </item>
 
 
@@ -32,7 +44,13 @@
         <guid>https://www.brendonbrewer.com/blog.html#using-220-skills</guid>
         <title>Using STATS 220 skills in the wild</title>
         <link>https://www.brendonbrewer.com/blog.html#using-220-skills</link>
-        <description>New blog post: Using STATS 220 skills in the wild</description>
+        <description>One of the best and worst things about being an academic is
+                that sometimes you are assigned to teach a course about
+                something you aren't very good at, or in some cases, have
+                never learned at all. As long as you can keep ahead of the
+                students, it usually works out fine. I've been lucky so far
+                that this hasn't happened much, and when it has, I've been
+                grateful to have learned the new material...</description>
     </item>
 
 
@@ -40,42 +58,65 @@
         <guid>https://www.brendonbrewer.com/blog.html#maxent-and-homogeneity</guid>
         <title>MaxEnt and homogeneity</title>
         <link>https://www.brendonbrewer.com/blog.html#maxent-and-homogeneity</link>
-        <description>New blog post: MaxEnt and homogeneity</description>
+        <description>I'm a bit unusual among Bayesians in that I still think the principle of maximum entropy
+                is both true and (occasionally) useful, and that its critics have thrown out the
+                baby with the bathwater. One of the chapters of my upcoming book,
+                if I finish it, will be about this issue, and related ones such as where
+                MaxEnt constraints come from in the first place...</description>
     </item>
 
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#lovely-email-received</guid>
         <title>Lovely email received!</title>
         <link>https://www.brendonbrewer.com/blog.html#lovely-email-received</link>
-        <description>New blog post: Lovely email received!</description>
+        <description>This kind of thing makes my day...</description>
     </item>
 
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#conventions-wide-priors</guid>
         <title>Conventions for wide priors in JAGS/BUGS</title>
         <link>https://www.brendonbrewer.com/blog.html#conventions-wide-priors</link>
-        <description>New blog post: Conventions for wide priors in JAGS/BUGS</description>
+        <description>I'm currently preparing to teach STATS 731, the graduate
+                Bayesian course here.
+                My first lecture was meant to be today but
+                I had to cancel it due to hoarseness following a throat
+                infection. Anyway, the existing course materials use a lot
+                of the traditional (in statistics) wide priors, stuff like this
+                for a location and scale parameter respectively...</description>
     </item>
 
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#talk-dallas-willard</guid>
         <title>Talk by Dallas Willard about worldviews</title>
         <link>https://www.brendonbrewer.com/blog.html#talk-dallas-willard</link>
-        <description>New blog post: Talk by Dallas Willard about worldviews</description>
+        <description>I recently enjoyed
+                this excellent talk
+                by Dallas Willard, entitled The Nature and
+                Necessity of Worldviews. If you're familiar with
+                Jonathan Haidt's work, it strikes familiar notes,
+                but Willard's personal angle as a frustrated
+                Christian in the secular university comes through...</description>
     </item>
 
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#trying-maths-here</guid>
         <title>Trying out maths here</title>
         <link>https://www.brendonbrewer.com/blog.html#trying-maths-here</link>
-        <description>New blog post: Trying out maths here</description>
+        <description>When I moved my blog over here, I was a bit worried that I
+                wouldn't be able
+                to type \(\LaTeX\) anymore. But that's not the case!...</description>
     </item>
 
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#retiring-blog</guid>
         <title>Retiring the Plausibility Theory blog</title>
         <link>https://www.brendonbrewer.com/blog.html#retiring-blog</link>
-        <description>New blog post: Retiring the Plausibility Theory blog</description>
+        <description>The other day I bought a domain name for my website, which
+                was fun, and has motivated me to continue simplifying
+                my internet
+                life in a few ways. Over the last year or so I've successfully
+                reduced my social media usage by about 80%, and am now using
+                the internet like it's 1999 again...</description>
     </item>
 </channel>
 
