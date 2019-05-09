@@ -1,275 +1,99 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Linux version 5.2.0">
-<title>Brendon J. Brewer</title>
-<meta name="description" content=
-"Website of Brendon J. Brewer, statistician at the University of Auckland">
-<meta name="keywords" content=
-"scientist, bayesian, statistics, markov chain monte carlo, inference">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content=
-"width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style/style.css"
-title="style">
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-<!-- MathJax -->
 
-<script src=
-'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML'
-async>
-</script>
+<head>
+  <title>Brendon J. Brewer</title>
+  <meta name="description" content="Website of Brendon J. Brewer, statistician at the University of Auckland" />
+  <meta name="keywords" content="scientist, bayesian, statistics, markov chain monte carlo, inference"/>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 </head>
+
 <body>
 <!--<meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">-->
-<!-- For LaTeX -->
-<div id="main">
-<div id="header">
-<div id="logo">
-<div id="logo_text">
-<!-- class="logo_colour", allows you to change the colour of the text -->
-<h1><a href="index.html">Brendon J. Brewer</a></h1>
-<h2>Senior Lecturer<br>
-Department of Statistics<br>
-The University of Auckland</h2>
-</div>
-</div>
-<div id="menubar">
-<ul id="menu">
-<!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-<li><a href="index.html">Home</a></li>
-<li><a href="research.html">Research</a></li>
-<li><a href="teaching.html">Teaching</a></li>
-<li><a href="personal.html">Personal</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li class="selected"><a href="blog.html">Blog</a></li>
-<li><a href="cv.html">CV</a></li>
-</ul>
-</div>
-</div>
-<div id="site_content">
-<div id="content">
-<h1>Blog <a href="https://www.brendonbrewer.com/rss.xml"><img src=
-"pic_rss.gif" alt="RSS feed" width="36" height="14"></a></h1>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href="#using-220-skills"
-name="using-220-skills" id="using-220-skills">Using STATS 220
-skills in the wild</a>
-<p>2019-05-06</p>
-<p>One of the best and worst things about being an academic is that
-sometimes you are assigned to teach a course about something you
-aren't very good at, or in some cases, have never learned at all.
-As long as you can keep ahead of the students, it usually works out
-fine. I've been lucky so far that this hasn't happened much, and
-when it has, I've been grateful to have learned the new
-material.</p>
-<p>One of the courses I've been teaching regularly for a few years
-is <a href="https://www.stat.auckland.ac.nz/~paul/ItDT/" target=
-"_blank">STATS 220</a>, an introductory computing course for
-statistics students, which teaches a bit of HTML, file formats,
-XML, SQL, and R. The course is the brainchild of <a href=
-"https://www.stat.auckland.ac.nz/~paul" target="_blank">Paul
-Murrell</a>, but our previous head of department wanted someone
-else to teach it so that more than one person knows the course. I
-was happy to do it since I like computing, and saying yes meant I
-was less likely to ever have to teach frequentism. When I started I
-knew a bit of HTML and R, and knew about file formats, but had
-never touched XML or SQL. At first I learned enough in order to
-teach the course, but not much more.</p>
-<p>However, recently I've had occasion to actually use more of this
-stuff in actual projects. For instance, this blog is written in
-plain HTML, and STATS 220's little HTML/CSS section has helped a
-fair bit so that I understand what I'm looking at when I use HTML.
-Today I set up an RSS feed (see that little button at the top of
-this page), which is secretly just an XML file, which I hand-wrote
-based on <a href="https://www.w3schools.com/XML/xml_rss.asp"
-target="_blank">this guide from W3Schools</a>.</p>
-<p>I've also recently enjoyed using SQL to query the LBRY
-blockchain and plot things such as the <a href=
-"https://spee.ch/@BrendonBrewer:8/cryptocandor-tip-history.pdf"
-target="_blank">amount various creators have received in tips</a>
-and the <a href="https://spee.ch/@BrendonBrewer:8/nine" target=
-"_blank">total number of publications over time</a>. Those were
-done using simple SELECT commands as taught in STATS 220 — the only
-slightly fancy stuff being (i) an INNER JOIN of a table with
-itself, and (ii) figuring out how to submit the darned query to
-their MySQL server and handle the results that come back.</p>
-<p>See, students, some of this stuff <i>is</i> useful!</p>
-</div>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href=
-"#maxent-and-homogeneity" name="maxent-and-homogeneity" id=
-"maxent-and-homogeneity">MaxEnt and homogeneity</a>
-<p>2019-05-05</p>
-<p>I'm a bit unusual among Bayesians in that I still think the
-principle of maximum entropy is both true and (occasionally)
-useful, and that its critics have thrown out the baby with the
-bathwater. One of the chapters of my upcoming book, if I finish it,
-will be about this issue, and related ones such as where MaxEnt
-constraints come from in the first place.</p>
-<p>Some of the bad criticisms of MaxEnt focus on the fact that you
-can easily get poor predictions from a MaxEnt distribution, in an
-ex-post sense (i.e., a scoring rule could give the MaxEnt
-distribution a worse score than some other distribution that people
-might intuitively suggest). I don't know why this would surprise
-anybody. Any broad prior, especially on a high dimensional space,
-is usually bad in this sense. MaxEnt does <i>minimal updating</i>
-of probability distributions, and if you minimally update something
-that doesn't perform that well according to an ex-post criterion,
-you're likely to get something else that doesn't perform that well
-with respect to the same criterion.</p>
-<p>One interesting feature of MaxEnt distributions is that they
-often lead to macroscopically homogenous predictions. For example,
-let \(\{x_i\}_{i=1}^N\) be a batsman's next \(N\) scores in
-cricket, so the set of possibilities is \(S = \{0, 1, 2, 3,
-...\}^N\). Starting with a flat prior over \(S\) and then doing
-MaxEnt with an expected value constraint like</p>
-<p>$$\left&lt;\frac{1}{N}\sum_{i=1}^N x_i\right&gt; = \mu,$$</p>
-<p>gives a posterior distribution for the \(\{x_i\}\) which is a
-product of iid geometrics with means \(\mu\). If \(N\) is large,
-this implies a high posterior probability for the sequence of
-scores looking macroscopically homogeneous, because the constraint
-never put in any time-dependent information, and because <i>almost
-every element of \(S\) looks macroscopically homogenous</i>.</p>
-<p>Now, the actual sequence of scores \(\{x_i\}_{i=1}^N\) may have
-a trend or whatever. That doesn't mean MaxEnt is invalid! It still
-correctly updates the flat prior over \(S\) in a minimal fashion,
-which is what it claims to do. Most possible sequences (elements of
-\(S\)) look macroscopically flat, so MaxEnt predicts that. Reality,
-being complicated, happened to produce a sequence that was atypical
-in that sense, but probably fairly typical in some other
-senses.</p>
-</div>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href=
-"#lovely-email-received" name="lovely-email-received" id=
-"lovely-email-received">Lovely email received!</a>
-<p>2019-05-01</p>
-<p>This kind of thing makes my day:</p>
-<p style="font-style: italic">Dear Prof. Brewer,<br>
-<br>
-I work as a Data Science/ML professional in the US having done my
-grad study in Stats.<br>
-I came across your Bayesian Stats course you teach at University of
-Auckland. I must say I have never found such a cogent and coherent
-text on Bayesian Statistics ever.</p>
-<p>Now I'm in a good mood. In related news, I've moved the notes
-<a href="https://www.brendonbrewer.com/stats331" target=
-"_blank">here</a> for online reading.</p>
-</div>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href=
-"#conventions-wide-priors" name="conventions-wide-priors" id=
-"conventions-wide-priors">Conventions for wide priors in
-JAGS/BUGS</a>
-<p>2019-04-30</p>
-<p>I'm currently preparing to teach STATS 731, the graduate
-Bayesian course here. My first lecture was meant to be today but I
-had to cancel it due to hoarseness following a throat infection.
-Anyway, the existing course materials use a lot of the traditional
-(in statistics) wide priors, stuff like this for a location and
-scale parameter respectively:</p>
-<pre>beta ~ dnorm(0, 1.0E-4)</pre>
-<pre>tau ~ dgamma(0.001, 0.001)</pre>
-<pre>var &lt;- 1/tau</pre>
-<pre>sig &lt;- sqrt(var)</pre>
-<br>
-<p>In the 1990s, it was important to choose conjugate priors to
-speed up the MCMC sampling, and in many cases (e.g. regression)
-stuff like this was appropriate. It still works today, too.
-However, in my experience students find the choice of a prior a bit
-mysterious, and these are more obscure than they need to be. Who
-has an intuition for what that gamma prior looks like — even for
-tau, let alone sig (the coordinate that's usually more
-interpretable). Also, are we really so sure beta is between -200
-and 200? Probably depends on the units of the problem.</p>
-<p>In my lecture on Thursday I'm still going to use these priors
-but I'm also going to (a) plot them, and (b) compare them to
-uniform and log-uniform priors which they are fairly similar to
-over a decent range of their parameter spaces. Hopefully this will
-remove a bit of the shroud of mystery.</p>
-</div>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href="#talk-dallas-willard"
-name="talk-dallas-willard" id="talk-dallas-willard">Talk by Dallas
-Willard about worldviews</a>
-<p>2019-04-30</p>
-<p>I recently enjoyed <a href=
-"https://www.youtube.com/watch?v=X6hwsG7AUZ0" target="_blank">this
-excellent talk</a> by Dallas Willard, entitled <i>The Nature and
-Necessity of Worldviews</i>. If you're familiar with Jonathan
-Haidt's work, it strikes familiar notes, but Willard's personal
-angle as a frustrated Christian in the secular university comes
-through.</p>
-<p>Regardless of what you think about issues of religion (I'm
-undecided myself), 90% of the talk can be filed under <i>important
-things I didn't learn until my 30s</i>, and can be applied to a
-great deal of other issues.</p>
-<p>If you don't have time for the whole thing, you can also check
-out <a href=
-"https://beta.lbry.tv/willard-worldview-taught/efa55ad0a580113faed25e848b611f74c2ea0be6"
-target="_blank">this brief clip</a>.</p>
-</div>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href="#trying-maths-here"
-name="trying-maths-here" id="trying-maths-here">Trying out maths
-here</a>
-<p>2019-04-29</p>
-<p>When I moved my blog over here, I was a bit worried that I
-wouldn't be able to type \(\LaTeX\) anymore. But that's not the
-case! Thanks to <a href="https://mathjax.org" target=
-"_blank">MathJax</a>, I can now get equations in here very simply.
-Here are two of my favourites:</p>
-<p>$$P(H \,|\, D, M) = \frac{P(H \,|\, M)P(D \,|\, H, M)} {P(D
-\,|\, M)}$$</p>
-<p>$$H\left(\boldsymbol{p}; \boldsymbol{q}\right) = -\sum_i p_i
-\log (p_i/q_i)$$</p>
-<p>While researching this, I also came across some PDF to HTML
-converters. That sounds like a horrible idea, but some worked a lot
-better than I thought. If you click on my CV at the top right
-you'll get what looks like a PDF document but is actually HTML! How
-cool.</p>
-</div>
-<br>
-<hr>
-<br>
-<div class="post"><a class="blog_title" href="#retiring-blog" name=
-"retiring-blog" id="retiring-blog">Retiring the Plausibility Theory
-blog</a>
-<p>2019-04-28</p>
-<p>The other day I bought a domain name for my website, which was
-fun, and has motivated me to continue simplifying my internet life
-in a few ways. Over the last year or so I've successfully reduced
-my social media usage by about 80%, and am now using the internet
-like it's 1999 again (well, except for the <a href=
-"https://api.lbry.com/user/refer?r=59ua6kNvRAdcSJjiN5MrxuZdR463uMaa"
-target="_blank">crypto</a> <a href=
-"https://keybase.io/">stuff</a>). It's been a pleasant experience,
-despite sounding a bit hipster.</p>
-<p>In addition, Wordpress has been annoying lately with too many
-promotional emails and generally being more complicated than I
-need. Therefore, I've decided that I'll no longer be posting at
-plausibilitytheory.wordpress.com. I'll leave it up so people can
-still read it if they want, but in general, any new posts will go
-straight to the blog page on brendonbrewer.com.</p>
-</div>
-</div>
-</div>
-<div id="footer">Based on "textured blue" from <a href=
-"http://www.html5webtemplates.co.uk">www.html5webtemplates.co.uk</a>.</div>
-</div>
+
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Brendon J. Brewer</a></h1>
+          <h2>Senior Lecturer<br>
+              Department of Statistics<br>
+              The University of Auckland</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="personal.html">Personal</a></li>
+          <li class="selected"><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="cv/index.html">CV</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Contact details</h1>
+
+			<p>Office Location: Room 331, Level 3, Science Building 303, 38 Princes Street, Auckland 1010.</p>
+			<p>Office Phone Number: +64 9 3737599 ext. 82665.</p>
+			<p>Email:  <span style="font-family: &quot;Courier New&quot;, Courier, monospace">bj.mysurname@auckland.ac.nz</span>, where  <span style="font-family: &quot;Courier New&quot;, Courier, monospace">mysurname</span> is replaced by my actual surname.
+                If you want to encrypt anything before sending it, and aren't
+                on <a href="https://keybase.io" target="_blank">Keybase</a>,
+                <a href="pgp_public_key.txt">here's my PGP public key</a>.
+            </p>
+
+			<p>
+				You can also find me on
+                <a href="http://www.github.com/eggplantbren" target="new">GitHub</a>,
+				<a href="https://www.bitbucket.org/eggplantbren" target="new">BitBucket</a>,
+				<a href="http://scholar.google.com/citations?user=4WVfFAoAAAAJ&amp;hl=en" target="new">Google Scholar</a>,
+                <a href="https://keybase.io/brendonbrewer" target="_blank">Keybase</a>,
+                <a href="https://api.lbry.io/user/refer?r=9pa98r9uUUFgJ4JpVr1YvH5dMEbXNTvo" target="_blank">LBRY</a>
+                (<a href="https://beta.lbry.tv/@brendonbrewer">my channel</a>),
+                <a href="https://instagram.com/brendon_brewer" target="_blank">Instagram</a>,
+				<a href="http://www.facebook.com/brendon.brewer" target="new">Facebook</a>,
+				<a href="https://www.goodreads.com/user/show/46113798-brendon-brewer" target="new">Goodreads</a>, and
+                <a href="http://www.youtube.com/user/eggplantbren" target="new">YouTube</a>.
+			</p>
+
+    <h1>Support</h1>
+    <p>
+      If you like anything you've found here and want to encourage me to put up more
+      stuff on the internet, you can
+      send a (small please) tip to one of the following cryptocurrency addresses:
+    </p>
+    <p>
+      BTC: <span style="font-family: &quot;Courier New&quot;, Courier, monospace">1GuiYaKf6xafmzEvRJipR3366FJtTJYEeY</span><br>
+      ETH: <span style="font-family: &quot;Courier New&quot;, Courier, monospace">0xC5d3838417A96243263fE1FC7092b13c2e226D40</span><br>
+      LTC: <span style="font-family: &quot;Courier New&quot;, Courier, monospace">LYrq48bFxpbC678xjbFVPuzCLRrWErW8uM</span><br>
+      LBC: <span style="font-family: &quot;Courier New&quot;, Courier, monospace">bDxomVYFm5CCW6XdopH55jLgzyqW7D1DvS</span><br>
+      XLM: <span style="font-family: &quot;Courier New&quot;, Courier, monospace">GAKW5GVGOEGD4DLLZZ6M3DVQWRJVAWFJRPP6Q5BX56J2FR36JE7HRIHD</span><br>
+    </p>
+
+    <p>
+        If you use the <a href="https://brave.com/bre510" target="_blank">Brave browser</a>,
+        this site is also set up to receive BAT.
+    </p>
+
+
+      </div>
+   </div>
+
+
+
+    <div id="footer">
+      Based on "textured blue" from
+      <a href="http://www.html5webtemplates.co.uk">www.html5webtemplates.co.uk</a>.
+    </div>
+  </div>
 </body>
 </html>
