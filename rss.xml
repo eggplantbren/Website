@@ -10,6 +10,18 @@
     <description>Bayesian statistics and other things of interest to
                  Brendon J. Brewer</description>
 
+
+    <item>
+        <guid>#eighties-australiana</guid>
+        <title>80s Australiana/Nostalgia</title>
+        <link>https://www.brendonbrewer.com/blog.html#eighties-australiana</link>
+        <description>When I lived in Australia, I never really paid much
+            attention to the popular pop/rock singers that Australia had
+            produced. I think I thought of them (Jimmy Barnes, John Farnham
+            et al) as cheesy...</description>
+    </item>
+
+
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#pewdiepie-lbry</guid>
         <title>How many PewDiePies are there on LBRY?</title>
@@ -19,8 +31,6 @@
                 provides no incentive to squatting...</description>
     </item>
 
-
-            <a class="blog_title" href="#pewdiepie-lbry" name="pewdiepie-lbry"></a>
 
     <item>
         <guid>https://www.brendonbrewer.com/blog.html#singing-project</guid>
