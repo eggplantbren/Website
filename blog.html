@@ -75,9 +75,10 @@
                 watching or downloading their video or other file. The tip gets associated with the
                 item, which has a few benefits. First, the item will rank higher in search results,
                 and secondly, it means that the publisher's claim to the short URL of the item
-                (such as lbry://hello, as opposed to a full URL such as
-                hello#b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a) gets stronger
-                (someone would need to stake more to take over that short URL). If the publisher needs
+                (such as lbry://hello, as opposed to a full permanent URL such as
+                lbry://hello#b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a) gets stronger, in the sense
+                that someone would need to spend more in order to take over the short URL.
+                If the publisher wants
                 to spend the tip, they need to "unlock it" from the item into their wallet first.
             </p>
 
@@ -102,10 +103,7 @@
                 know the short URL, you can go to the command line and type something
                 like this
             </p>
-
-            <pre>
-                lbrynet resolve lbry://hello
-            </pre>
+            <pre>lbrynet resolve lbry://hello</pre><br>
 
             <p>
                 and then look for the claim_id in the output. If the item is
@@ -115,11 +113,16 @@
 
             <p>
                 Once you know the claim_id, it's pretty easy to make a non-tip
-                support. Here's how I would do it for the hello example:
+                support. Here's how I would do it for the hello example once
+                I knew the claim_id:
             </p>
-            <pre>
-                lbrynet support create --claim_id=b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a --amount=10.0
-            </pre>
+            <pre>lbrynet support create --claim_id=b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a --amount=10.0</pre><br>
+
+            <p>
+                If you wanted to create the support as a tip instead (like you
+                can do in the app), just pass an extra --tip option to the
+                command.
+            </p>
 
             <p>
                 Obviously the amount can be changed depending on how much you
