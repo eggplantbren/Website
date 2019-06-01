@@ -121,15 +121,16 @@
 
             <p>
                 One of the fun things you can do in the app is send a tip to someone after (or before :))
-                watching or downloading their video or other file. The tip gets associated with the
+                watching or downloading their video or other file. Rather than going straight to the
+                publisher's wallet, the tip gets associated with the
                 item, which has a few benefits. First, the item will rank higher in search results,
                 and secondly, it means that the publisher's claim to the short URL of the item
                 (such as <span class="mono">lbry://hello</span>, as opposed to a full permanent URL such as
                 <span class="mono">lbry://hello#b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a</span>)
                 gets stronger, in the sense
                 that someone would need to spend more in order to take over the short URL.
-                If the publisher wants
-                to spend the tip, they need to "unlock it" from the item into their wallet first.
+                If the publisher does want to
+                spend the tip, can need to "unlock it" from the item into their wallet.
             </p>
 
             <p>
@@ -151,7 +152,7 @@
                 (channel or published file), called the <span class="mono">claim_id</span>.
                 If you know the full
                 URL already, the <span class="mono">claim_id</span>
-                is just the part after the hash. If you only
+                is just the part after the <span class="mono">#</span>. If you only
                 know the short URL, you can go to the command line and type something
                 like this
             </p>
@@ -172,7 +173,7 @@
 
             <p>
                 If you wanted to create the support as a tip instead (like you
-                can do in the app), just pass an extra --tip option to the
+                can do in the app), just pass an extra <span class="mono">--tip</span> option to the
                 command.
             </p>
             <pre>lbrynet support create --tip --claim_id=b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a --amount=10.0</pre><br>
