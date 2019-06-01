@@ -13,6 +13,11 @@
   <!-- MathJax -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+  <style>
+    .mono { font-family: "Mono", courier, mono; }
+
+  </style>
+
 </head>
 
 <body>
@@ -75,8 +80,9 @@
                 watching or downloading their video or other file. The tip gets associated with the
                 item, which has a few benefits. First, the item will rank higher in search results,
                 and secondly, it means that the publisher's claim to the short URL of the item
-                (such as lbry://hello, as opposed to a full permanent URL such as
-                lbry://hello#b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a) gets stronger, in the sense
+                (such as <span class="mono">lbry://hello</span>, as opposed to a full permanent URL such as
+                <span class="mono">lbry://hello#b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a</span>)
+                gets stronger, in the sense
                 that someone would need to spend more in order to take over the short URL.
                 If the publisher wants
                 to spend the tip, they need to "unlock it" from the item into their wallet first.
@@ -98,23 +104,25 @@
 
             <p>
                 To make one of these, first you need the unique identifier of the claim
-                (channel or published file), called the claim_id. If you know the full
-                URL already, the claim_id is just the part after the hash. If you only
+                (channel or published file), called the <span class="mono">claim_id</span>.
+                If you know the full
+                URL already, the <span class="mono">claim_id</span>
+                is just the part after the hash. If you only
                 know the short URL, you can go to the command line and type something
                 like this
             </p>
             <pre>lbrynet resolve lbry://hello</pre><br>
 
             <p>
-                and then look for the claim_id in the output. If the item is
-                inside a channel, you'll get the channel's claim_id in the
+                and then look for the <span class="mono">claim_id</span> in the output. If the item is
+                inside a channel, you'll get the channel's <span class="mono">claim_id</span> in the
                 output too, so make sure you can tell which is which.
             </p>
 
             <p>
-                Once you know the claim_id, it's pretty easy to make a non-tip
+                Once you know the <span class="mono">claim_id</span>, it's pretty easy to make a non-tip
                 support. Here's how I would do it for the hello example once
-                I knew the claim_id:
+                I knew the <span class="mono">claim_id</span>:
             </p>
             <pre>lbrynet support create --claim_id=b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a --amount=10.0</pre><br>
 
@@ -123,15 +131,25 @@
                 can do in the app), just pass an extra --tip option to the
                 command.
             </p>
+            <pre>lbrynet support create --tip --claim_id=b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a --amount=10.0</pre><br>
 
             <p>
                 Obviously the amount can be changed depending on how much you
                 want to use. If you decide to abandon the support (i.e., withdraw
                 the LBC back to yourself, you don't need to use the command line &mdash;
                 the transaction appears in the app with a little trash icon next
-                to it which you can use to abandon the support.
+                to it which you can use to abandon the support:
+            </p>
+
+            <p>
+            <img src="images/abandon-support.png" alt="Trash icon for abandoning support">
+            </p>
+
+            <p>
                 Now that I know about this, there's little reason not to
-                deposit most of my credits against stuff I like.
+                deposit most of my credits against stuff I like! Better to have
+                them sitting there doing something cool as opposed to just
+                sitting there!
             </p>
         </div>
 

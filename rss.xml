@@ -10,6 +10,21 @@
     <description>Bayesian statistics and other things of interest to
                  Brendon J. Brewer</description>
 
+
+    <item>
+        <guid>#lbry-support</guid>
+        <title>How to support a file or channel on LBRY without spending anything</title>
+        <link>https://www.brendonbrewer.com/blog.html#lbry-support</link>
+        <description>As my loyal reader knows, I've been into LBRY for a while now after hearing
+                about it from economist Alex Tabarrok. It still has a ways to go to be fully featured
+                and get more adoption, but it's been a fun thing to learn about
+                and play with. Today I wanted to tell you about a cool feature that isn't supported
+                in the GUI app yet but can be done from the command line...</description>
+    </item>
+
+
+
+
     <item>
         <guid>#busy-busy-busy</guid>
         <title>Busy busy busy</title>
