@@ -65,7 +65,7 @@
             <p>
                 As my loyal reader knows, I've been into LBRY for a while now after hearing
                 about it from economist Alex Tabarrok. It still has a ways to go to be fully featured
-                and (maybe) get more adoption, but it's been a fun thing to learn about
+                and get more adoption, but it's been a fun thing to learn about
                 and play with. Today I wanted to tell you about a cool feature that isn't supported
                 in the GUI app yet but can be done from the command line.
             </p>
@@ -75,7 +75,8 @@
                 watching or downloading their video or other file. The tip gets associated with the
                 item, which has a few benefits. First, the item will rank higher in search results,
                 and secondly, it means that the publisher's claim to the short URL of the item
-                (such as lbry://cats) gets stronger
+                (such as lbry://hello, as opposed to a full URL such as
+                hello#b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a) gets stronger
                 (someone would need to stake more to take over that short URL). If the publisher needs
                 to spend the tip, they need to "unlock it" from the item into their wallet first.
             </p>
@@ -86,17 +87,49 @@
                 credits to support someone else's channel or item <i>without sending them a tip</i>,
                 and in a way that can be easily reversed if you actually want to spend the LBC
                 or use it elsewhere.
-                A tip is one kind of something which is more generally called a "support" &mdash;
-                one where you lose the LBC you tip and the publisher gains it. The other kind of
+                A tip is a special case of something which is more generally called a "support" &mdash;
+                specifically, a tip is a support where you lose the LBC you tip and the publisher gains it.
+                The other kind of
                 support lets you put some of your LBC towards someone else's publication, but you
-                retain the right to withdraw it at any time.
+                retain the right to withdraw it at any time, rather than giving that right
+                to the publisher.
             </p>
 
             <p>
-                To make one of these, first you need the unique identifier of 
+                To make one of these, first you need the unique identifier of the claim
+                (channel or published file), called the claim_id. If you know the full
+                URL already, the claim_id is just the part after the hash. If you only
+                know the short URL, you can go to the command line and type something
+                like this
             </p>
 
+            <pre>
+                lbrynet resolve lbry://hello
+            </pre>
 
+            <p>
+                and then look for the claim_id in the output. If the item is
+                inside a channel, you'll get the channel's claim_id in the
+                output too, so make sure you can tell which is which.
+            </p>
+
+            <p>
+                Once you know the claim_id, it's pretty easy to make a non-tip
+                support. Here's how I would do it for the hello example:
+            </p>
+            <pre>
+                lbrynet support create --claim_id=b981513aeb8ff0394cc2d1d4aef6c1fa5177e24a --amount=10.0
+            </pre>
+
+            <p>
+                Obviously the amount can be changed depending on how much you
+                want to use. If you decide to abandon the support (i.e., withdraw
+                the LBC back to yourself, you don't need to use the command line &mdash;
+                the transaction appears in the app with a little trash icon next
+                to it which you can use to abandon the support.
+                Now that I know about this, there's little reason not to
+                deposit most of my credits against stuff I like.
+            </p>
         </div>
 
 
