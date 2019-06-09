@@ -10,6 +10,22 @@
     <description>Bayesian statistics and other things of interest to
                  Brendon J. Brewer</description>
 
+
+    <item>
+        <guid>#book-quotes</guid>
+        <title>Some quotes used in my book draft</title>
+        <link>https://www.brendonbrewer.com/blog.html#book-quotes</link>
+        <description>I sometimes tell my graduate students that the most important
+                section of their dissertation is the acknowledgements. This
+                is because it will be
+                read by far more people than the rest, by a wide margin.
+                After the acknowledgements, the next most important part
+                is to put in some interesting or fun quotes at the beginning
+                of the chapters...</description>
+    </item>
+
+
+
     <item>
         <guid>#a-new-experience</guid>
         <title>A new experience</title>
