@@ -61,6 +61,53 @@
         </h1>
         <br><hr>
 
+        <div class="post">
+            <a class="blog_title" href="#recently-discovered-tools"
+                  name="recently-discovered-tools">Recently discovered tools</a>
+            <p>2019-06-21</p>
+
+            <p>
+                In the last couple of months I've come across some pretty
+                cool new programs that I thought I'd tell you all about
+                (I know I have at least one reader &mdash; I got a really
+                nice email from a former student who reads the blog).
+            </p>
+
+            <p>
+                First, <a href="https://facebook.github.io/zstd/" target="_blank">Zstandard</a>.
+                It's a new-ish compression algorithm that was
+                developed by a guy at Facebook. It seems to have really good
+                properties, compressing both quickly and effectively &mdash;
+                way faster than bzip2 and with better compression than gzip.
+                The usage is a little awkward. I think you can use it with
+                tar but I haven't figured out how yet. You can always do it in
+                two steps though:
+            </p>
+
+            <pre>tar cvf myfile.tar mydir
+zstd myfile.tar -o myfile.tar.zst</pre>
+            <br>
+
+            <p>
+                The command to unzip is a bit awkward: <span class="mono">unzstd</span>.
+                But the performance is so impressive I'm willing to overlook that!
+            </p>
+
+            <p>
+                The other thing I had to do recently was delete a Bitcoin wallet
+                from an old computer before getting rid of it. To do so, I
+                used <a href="https://en.wikipedia.org/wiki/Srm_(Unix)" target="_blank">srm</a>
+                (secure <span class="mono">rm</span>), which does a bunch of fancy wiping to
+                make sure it can't be read even by someone hardcore. It's
+                very easy to use &mdash; you can just <span class="mono">srm</span> a file like you would
+                <span class="mono">rm</span> one, and it uses sane and intense defaults to make sure
+                it's not recoverable.
+            </p>
+
+        </div>
+        <br><hr><br>
+
+
 
         <div class="post">
             <a class="blog_title" href="#book-quotes"
@@ -458,7 +505,7 @@ view is epistemological in character and associated with Cox.</em>
 
             <p>
                 I've also recently enjoyed using SQL to query the LBRY
-                blockchain and plot things such as the <a href="https://spee.ch/@BrendonBrewer:8/cryptocandor-tip-history.pdf"
+                blockchain and plot things such as the <a href="https://open.lbry.com/cryptocandor-tip-history"
                 target="_blank">amount various creators have received in tips</a>
                 and the <a href="https://spee.ch/@BrendonBrewer:3/claims.svg" target="_blank">total
                 number of publications over time</a>. Those were done using
