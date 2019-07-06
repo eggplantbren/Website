@@ -12,6 +12,16 @@
 
 
    <item>
+        <guid>#busy-again</guid>
+        <title>Busy again...</title>
+        <link>https://www.brendonbrewer.com/blog.html#busy-again</link>
+        <description>It's been pretty quiet here since I've been busy again. Here
+                are the two main reasons:</description>
+    </item>
+
+
+
+   <item>
         <guid>#recently-discovered-tools</guid>
         <title>Recently discovered tools</title>
         <link>https://www.brendonbrewer.com/blog.html#recently-discovered-tools</link>
