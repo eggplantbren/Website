@@ -12,6 +12,15 @@
 
 
    <item>
+        <guid>#two-songs</guid>
+        <title>Two singers and songs I've been enjoying</title>
+        <link>https://www.brendonbrewer.com/blog.html#two-songs</link>
+        <description>On my old blog I occasionally posted songs that I'm into, for
+                no particular reason other than wanting to share them...</description>
+    </item>
+
+
+   <item>
         <guid>#worth-doing-once</guid>
         <title>Something worth doing once</title>
         <link>https://www.brendonbrewer.com/blog.html#worth-doing-once</link>
