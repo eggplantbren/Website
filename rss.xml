@@ -12,6 +12,17 @@
 
 
    <item>
+        <guid>#lookup-tables</guid>
+        <title>Rocking Lookup Tables in 2019</title>
+        <link>https://www.brendonbrewer.com/blog.html#lookup-tables</link>
+        <description>Do people learn about lookup tables anymore? I don't know where
+                I picked them up from, but I have the impression that they are
+                an old-fashioned programming technique from the 1980s and 1990s.
+                However, I find myself using them all the time even though it's 2019.</description>
+    </item>
+
+
+   <item>
         <guid>#hygiene-theatre</guid>
         <title>Hygiene Theatre?</title>
         <link>https://www.brendonbrewer.com/blog.html#hygiene-theatre</link>

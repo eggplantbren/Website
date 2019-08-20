@@ -15,6 +15,7 @@
 
   <style>
     .mono { font-family: "Mono", courier, mono; }
+    .center { text-align: center; }
 
   </style>
 
@@ -63,6 +64,71 @@
 
 
         <div class="post">
+            <a class="blog_title" href="#lookup-tables"
+                  name="lookup-tables">Rocking Lookup Tables in 2019</a>
+            <p>2019-08-20</p>
+
+            <p>
+                Do people learn about lookup tables anymore? I don't know where
+                I picked them up from, but I have the impression that they are
+                an old-fashioned programming technique from the 1980s and 1990s.
+                However, I find myself using them all the time even though it's 2019.
+                I have no idea whether they're a good idea in languages like
+                Python or R, but I use them a lot in C++ and I should try them
+                in Haskell some time.
+            </p>
+
+            <p>
+                For example, in some work I'm doing at the moment, I am fitting
+                profiles to spectra of singers singing a single note. The spectra contain many
+                peaks, and some of the peaks look approximately Gaussian whereas
+                others look more like a Cauchy distribution. To capture these
+                different shapes, I'm using model functions that are proportional
+                to the density function of a Student <em>t</em>-distribution.
+                For a peak of amplitude 1 centered at position 0
+                with unit width and shape parameter \(\nu\), the functional
+                form is
+            </p>
+
+            <p>
+                $$f(x) = \left(1 + \frac{x^2}{\nu}\right)^{-\frac{1}{2}(\nu + 1)}.$$
+            </p>
+
+            <p>
+                The profile can be moved around using a location, scale, and
+                amplitude parameter.
+                Since I have to evaluate fifty of these (there are lots of peaks)
+                per MCMC iteration in my fit, it dominates the computational
+                cost. Things are much faster if I make a grid of \(x\)-values,
+                populated with evaluations of \(f(x)\) at the grid points.
+                I also have several arrays to cover a range of values of
+                \(\nu\). This happens once at the beginning of my run, and
+                if I want to evaluate \(f(x)\) for the billionth time,
+                I just figure out which
+                element of my pre-computed arrays is closest to the input
+                \(x\)-value and get the
+                corresponding \(f(x)\) value out
+                (actually I linearly interpolate from the two
+                grid points that my \(x\) falls between).
+            </p>
+
+            <p>
+                Here's the result of one of my fits. You can really see the
+                need for the \(t\)-like shape in the second harmonic.
+                The red curve comes from a continuum component I used which
+                had a very flexible prior, and the blue is the total model
+                curve after adding all the \(t\)-shaped harmonic peaks.
+                Click the image to enlarge.
+            </p>
+            <p class="center">
+            <a href="images/spectrum.png"><img src="images/spectrum.png" alt="spectrum of a sung note" width="75%"></a>
+            </p>
+
+
+        </div>
+        <br><hr><br>
+
+        <div class="post">
             <a class="blog_title" href="#hygiene-theatre"
                   name="hygiene-theatre">Hygiene Theatre?</a>
             <p>2019-08-12</p>
@@ -102,6 +168,9 @@
                 continue to do it anyway. So here are two of my recent favourites.
                 First, Universal Sound, by country singer-songwriter Tyler
                 Childers. I adore this song both technically and emotionally.
+            </p>
+
+            <p class="center">
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lhvpA46e0wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </p>
@@ -116,11 +185,10 @@
                 singers do. One of the commenters called it an "upper chest belt"
                 which I suppose is the normal terminology for what she does when
                 everyone gets really impressed (or calls it screeching, as my
-                Nan would :)). Much of the earlier part of the song is in neutral,
-                though.
+                Nan would :)). Much of the earlier part of the song is in neutral.
             </p>
 
-            <p>
+            <p class="center">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tYXufX9hLbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </p>
 
