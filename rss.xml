@@ -12,6 +12,27 @@
 
 
    <item>
+        <guid>#cricket-feedback</guid>
+        <title>Some nice feedback on our latest cricket paper</title>
+        <link>https://www.brendonbrewer.com/blog.html#cricket-feedback</link>
+        <description>This afternoon I had my weekly meeting with PhD student
+                Ollie
+                Stevenson. It was a routine meeting where he showed me
+                what he'd been working on and we discussed a few issues
+                around it. Then he mentioned that our most recently submitted
+                paper had received some feedback. It was pretty good feedback!
+                Check this out: [IMAGE]
+
+                Thanks, Nick! This was super pleasing to read.
+                I just hope the journal referees feel the same way, or at least
+                half as positively. But until
+                we hear back from them you can get the preprint
+                from the arxiv
+                or (why not) from LBRY.</description>
+    </item>
+
+
+   <item>
         <guid>#lookup-tables</guid>
         <title>Rocking Lookup Tables in 2019</title>
         <link>https://www.brendonbrewer.com/blog.html#lookup-tables</link>
