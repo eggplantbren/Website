@@ -12,6 +12,22 @@
 
 
    <item>
+        <guid>#sub-to-newsletter</guid>
+        <title>Subscribe to my newsletter!</title>
+        <link>https://www.brendonbrewer.com/blog.html#sub-to-newsletter</link>
+        <description>I've started a newsletter and will be sending out the first
+                issue soon. The intended frequency is once per fortnight but
+                I might change that in the future depending on how things go.
+                The newsletter will cover any topics of interest to me (and hopefully
+                you). Please sign up
+                <a href="https://brendonbrewer.com/#newsletter" target="_blank">here</a>
+                if you're interested. I am considering archiving the newsletters
+                somewhere as well but I'm not 100% sure yet.</description>
+    </item>
+
+
+
+   <item>
         <guid>#cricket-feedback</guid>
         <title>Some nice feedback on our latest cricket paper</title>
         <link>https://www.brendonbrewer.com/blog.html#cricket-feedback</link>
