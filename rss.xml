@@ -12,6 +12,24 @@
 
 
    <item>
+        <guid>#three-views-inference</guid>
+        <title>Three Views of Bayesian Inference</title>
+        <link>https://www.brendonbrewer.com/blog.html#three-views-inference</link>
+        <description>
+                In this post I will describe three two ways of looking at any given
+                Bayesian inference problem. The three ways are all mutually
+                compatible, but bring out different aspects of what is going on.
+                This is a very condensed version of what will ultimately be several
+                book chapters.
+
+                Sorry MH, cutting short here because the post depends on fancy HTML
+                which won't render well here and will make my RSS file invalid ;-)
+        </description>
+    </item>
+
+
+
+   <item>
         <guid>#sub-to-newsletter</guid>
         <title>Subscribe to my newsletter!</title>
         <link>https://www.brendonbrewer.com/blog.html#sub-to-newsletter</link>
