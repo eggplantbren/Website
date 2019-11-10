@@ -62,6 +62,99 @@
         </h1>
         <br><hr>
 
+        <div class="post">
+            <a class="blog_title" href="#three-views-inference"
+                  name="three-views-inference">Three Views of Bayesian Inference</a>
+            <p>2019-11-10</p>
+
+            <p>
+                In this post I will describe <s>three</s> two ways of looking at any given
+                Bayesian inference problem. The three ways are all mutually
+                compatible, but bring out different aspects of what is going on.
+                This is a very condensed version of what will ultimately be several
+                book chapters.
+            </p>
+
+            <p>
+                I call the first view the <em>parameter space view</em>.
+                This is the one most statisticians are used to, and focus
+                on the set of possible values of the parameter \(\theta\), i.e.,
+                the parameter space. In this view, a Bayesian update proceeds
+                when you take the prior \(\pi(\theta)\) and multiply it by
+                a likelihood function \(L(\theta)\), then re-normalise to
+                obtain the posterior distribution which is proportional to
+                \(\pi(\theta)L(\theta)\). This is the best viewpoint for
+                getting the job done, but not the best for understanding
+                the fundamental reasons why updating should be done this way.
+            </p>
+
+            <p>
+                The second view is the <em>product space view</em>, but that is
+                perhaps not the best term for it, since you don't always need
+                a product space. That's just the way to get from the parameter
+                space view (if you're used to it) to here.
+            </p>
+
+            <p>
+                Before knowing the data, not only do you not know the value
+                of \(\theta\), you also don't know the value of the data \(D\)
+                (thanks to Ariel Caticha for pointing this out to me).
+                Probabilities for statements about \(D\) are well-defined
+                via \(p(D | \theta)\). The probability distribution that
+                actually describes the prior uncertainty is the "joint prior":
+
+                $$p(\theta, D) = p(\theta)p(D|\theta)$$
+
+                which defines prior probabilities for statements like
+                "\(\theta\) is between 3 and 4 and \(D\) is either positive
+                or equal to \(-1\)". In a standard Bayesian setup, the
+                space over which probability distributions are assigned is
+                usually this product space &mdash; the set of possible
+                values of the pair \((\theta, D)\).
+            </p>
+
+            <p>
+                What does the update look like from this view? Trivial!
+                If the value of the data is found to be \(D_0\),
+                all other values of \(D\) are ruled out, and the posterior
+                is proportional to
+                $$p(\theta, D | D=D_0) \propto \left\{\begin{array}{lr}p(\theta, D), & D=D_0 \\ 0, & \textrm{otherwise.}\end{array}\right.$$
+                From this point of view, the Bayesian update is trivial
+                <em>elimination</em>. When you learn some statements are
+                false, set their probabilities to zero and renormalise. This
+                also sets the probability of statements known to be true to 1.
+                This view is good for seeing (i) how trivial Bayesian updating
+                actually is, (ii) how reliant on prior information it is (you
+                better have prior dependence between \(\theta\) and \(D\) or
+                the latter won't tell you anything about the former),
+                (iii) how <em>Approximate Bayesian Computation</em> (which could
+                have been called 'product space sampling'), works; and (iv)
+                understanding how
+                Bayesian inference and Maximum Entropy are totally compatible.
+            </p>
+
+            <p>
+                This second view is also operative when there is no product
+                space present. For example, suppose \(\theta\) is a real number
+                and your prior is \(\pi(\theta)\). You then learn that
+                \(\theta\) is between two and five, so update to
+                $$p(\theta | \theta \in [2, 5]) \propto \left\{\begin{array}{lr}\frac{\pi(\theta)}{P_\pi(\theta \in [2, 5])}, & \theta \in [2, 5] \\ 0, & \textrm{otherwise.} \end{array}\right.$$
+                If you want to think of this as multiplication by a likelihood function
+                whose values are only ever zero or one, you can &mdash; and every other
+                Bayesian inference can be thought of like this as well.
+            </p>
+
+            <p>
+                The third view I was going to tell you about is the <em>powerset</em>
+                view, which is the set of all statements. This forms a structure
+                called a Boolean lattice, and it is good for understanding why
+                the rules of probability theory apply to both counting sets
+                and to degrees of implication. But I'll save that for another time.
+            </p>
+
+        </div>
+        <br><hr><br>
+
 
         <div class="post">
             <a class="blog_title" href="#sub-to-newsletter"
