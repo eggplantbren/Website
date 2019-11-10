@@ -121,8 +121,18 @@
                 $$p(\theta, D | D=D_0) \propto \left\{\begin{array}{lr}p(\theta, D), & D=D_0 \\ 0, & \textrm{otherwise.}\end{array}\right.$$
                 From this point of view, the Bayesian update is trivial
                 <em>elimination</em>. When you learn some statements are
-                false, set their probabilities to zero and renormalise. This
-                also sets the probability of statements known to be true to 1.
+                false, set their probabilities to zero and renormalise.
+                If you then found the marginal posterior for \(\theta\),
+                you'd end up with the same result from the first view,
+                except now it's clear why the likelihood is the correct
+                modulating function (it's because the product rule is
+                used to set up the joint prior).
+            </p>
+
+            <p>
+                This update
+                also sets the probability of statements known to be true to 1,
+                in alignment with common sense.
                 This view is good for seeing (i) how trivial Bayesian updating
                 actually is, (ii) how reliant on prior information it is (you
                 better have prior dependence between \(\theta\) and \(D\) or
