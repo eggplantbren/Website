@@ -12,6 +12,31 @@
 
 
    <item>
+        <guid>#weirdest-fix-ever</guid>
+        <title>Weirdest Computer Fix Ever</title>
+        <link>https://www.brendonbrewer.com/blog.html#weirdest-fix-ever</link>
+        <description>
+                My laptop is pretty decent given that it only cost $1000 NZD,
+                but I've had an annoying mouse lag issue lately. I suspected
+                just about every program I run of causing this (for example,
+                Brave, Discord, and LBRY often showed high up on my top
+                output, but I couldn't really single one of these out in a
+                satisfying way. So I did what I probably should have done at
+                the beginning, and searched for my issue.
+
+                I searched for lagging mouse and found a post about a wireless
+                mouse, which matched my situation. The poster had fixed this
+                issue by plugging the little dongle receiver in via a hub or
+                USB extension cord instead of straight into the computer.
+                I tried this today, and it worked!
+
+                It's a pretty weird fix, but I'll take it. Now the mouse only
+                lags if the hard disk is getting thrashed, which is what I'd
+                expect to happen anyway.
+        </description>
+    </item>
+
+   <item>
         <guid>#three-views-inference</guid>
         <title>Three Views of Bayesian Inference</title>
         <link>https://www.brendonbrewer.com/blog.html#three-views-inference</link>
