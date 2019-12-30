@@ -12,6 +12,23 @@
 
 
    <item>
+        <guid>#fake-news</guid>
+        <title>My Previous Blog Post is Fake News</title>
+        <link>https://www.brendonbrewer.com/blog.html#fake-news</link>
+        <description>
+            A few days ago I found out that my previous blog post about how
+            I fixed my laggy laptop was all
+            wrong. Well, maybe those things did help a
+            little bit. However, the thing that *finally* solved the problem
+            once and for all (yes, that's actually true this time)
+            was switching to a real-time kernel.
+            My laptop is amazing again now. That shouldn't have been
+            necessary, but I'm just glad it's fixed!
+        </description>
+    </item>
+
+
+   <item>
         <guid>#weirdest-fix-ever</guid>
         <title>Weirdest Computer Fix Ever</title>
         <link>https://www.brendonbrewer.com/blog.html#weirdest-fix-ever</link>
