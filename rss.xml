@@ -11,10 +11,23 @@
                  Brendon J. Brewer</description>
 
 
+
+   <item>
+        <guid>kitchen-equilibrium</guid>
+        <title>Equilibrium and the State of the Kitchen</title>
+        <link>https://www.brendonbrewer.com/blog.html#kitchen-equilibrium</link>
+        <description>
+            Hello everyone, and Happy Easter!
+
+            Over the years, I've sometimes had to teach courses that weren't originally in my wheelhouse. Luckily, I've had good heads of department who haven't made me teach things I don't believe in. Sometimes, there's a little bit of that, but I can easily work around it with a sermon...
+        </description>
+    </item>
+
+
    <item>
         <guid>#fake-news</guid>
         <title>My Previous Blog Post is Fake News</title>
-        <link>https://www.brendonbrewer.com/blog.html#fake-news</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#fake-news</link>
         <description>
             A few days ago I found out that my previous blog post about how
             I fixed my laggy laptop was all
@@ -31,7 +44,7 @@
    <item>
         <guid>#weirdest-fix-ever</guid>
         <title>Weirdest Computer Fix Ever</title>
-        <link>https://www.brendonbrewer.com/blog.html#weirdest-fix-ever</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#weirdest-fix-ever</link>
         <description>
                 My laptop is pretty decent given that it only cost $1000 NZD,
                 but I've had an annoying mouse lag issue lately. I suspected
@@ -56,7 +69,7 @@
    <item>
         <guid>#three-views-inference</guid>
         <title>Three Views of Bayesian Inference</title>
-        <link>https://www.brendonbrewer.com/blog.html#three-views-inference</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#three-views-inference</link>
         <description>
                 In this post I will describe three two ways of looking at any given
                 Bayesian inference problem. The three ways are all mutually
@@ -74,7 +87,7 @@
    <item>
         <guid>#sub-to-newsletter</guid>
         <title>Subscribe to my newsletter!</title>
-        <link>https://www.brendonbrewer.com/blog.html#sub-to-newsletter</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#sub-to-newsletter</link>
         <description>I've started a newsletter and will be sending out the first
                 issue soon. The intended frequency is once per fortnight but
                 I might change that in the future depending on how things go.
@@ -93,7 +106,7 @@
    <item>
         <guid>#cricket-feedback</guid>
         <title>Some nice feedback on our latest cricket paper</title>
-        <link>https://www.brendonbrewer.com/blog.html#cricket-feedback</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#cricket-feedback</link>
         <description>This afternoon I had my weekly meeting with PhD student
                 Ollie
                 Stevenson. It was a routine meeting where he showed me
@@ -114,7 +127,7 @@
    <item>
         <guid>#lookup-tables</guid>
         <title>Rocking Lookup Tables in 2019</title>
-        <link>https://www.brendonbrewer.com/blog.html#lookup-tables</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#lookup-tables</link>
         <description>Do people learn about lookup tables anymore? I don't know where
                 I picked them up from, but I have the impression that they are
                 an old-fashioned programming technique from the 1980s and 1990s.
@@ -125,7 +138,7 @@
    <item>
         <guid>#hygiene-theatre</guid>
         <title>Hygiene Theatre?</title>
-        <link>https://www.brendonbrewer.com/blog.html#hygiene-theatre</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#hygiene-theatre</link>
         <description>This morning I bought a muffin from the convenience store on
                 campus. In front of the muffins there is a sign instructing us
                 to use the tongs to pick up a muffin, instead of our possibly
@@ -135,7 +148,7 @@
    <item>
         <guid>#two-songs</guid>
         <title>Two singers and songs I've been enjoying</title>
-        <link>https://www.brendonbrewer.com/blog.html#two-songs</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#two-songs</link>
         <description>On my old blog I occasionally posted songs that I'm into, for
                 no particular reason other than wanting to share them...</description>
     </item>
@@ -144,7 +157,7 @@
    <item>
         <guid>#worth-doing-once</guid>
         <title>Something worth doing once</title>
-        <link>https://www.brendonbrewer.com/blog.html#worth-doing-once</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#worth-doing-once</link>
         <description>Attentive readers and/or stalkers may have noticed a recent
                 addition on the research page of this site: a paper accepted
                 for publication in Nature. This was an interesting collaboration
@@ -156,7 +169,7 @@
    <item>
         <guid>#busy-again</guid>
         <title>Busy again...</title>
-        <link>https://www.brendonbrewer.com/blog.html#busy-again</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#busy-again</link>
         <description>It's been pretty quiet here since I've been busy again. Here
                 are the two main reasons:</description>
     </item>
@@ -166,7 +179,7 @@
    <item>
         <guid>#recently-discovered-tools</guid>
         <title>Recently discovered tools</title>
-        <link>https://www.brendonbrewer.com/blog.html#recently-discovered-tools</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#recently-discovered-tools</link>
         <description>In the last couple of months I've come across some pretty
                 cool new programs that I thought I'd tell you all about
                 (I know I have at least one reader: I got a really
@@ -177,7 +190,7 @@
     <item>
         <guid>#book-quotes</guid>
         <title>Some quotes used in my book draft</title>
-        <link>https://www.brendonbrewer.com/blog.html#book-quotes</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#book-quotes</link>
         <description>I sometimes tell my graduate students that the most important
                 section of their dissertation is the acknowledgements. This
                 is because it will be
@@ -192,7 +205,7 @@
     <item>
         <guid>#a-new-experience</guid>
         <title>A new experience</title>
-        <link>https://www.brendonbrewer.com/blog.html#a-new-experience</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#a-new-experience</link>
         <description>A month or two ago, Lianne and I bought a Yamaha MT-03 to help with commuting. It's
                 been really fun riding again, though of course I have plenty
                 of reasons for caution on the roads. Today I experienced a
@@ -204,7 +217,7 @@
     <item>
         <guid>#lbry-support</guid>
         <title>How to support a file or channel on LBRY without spending anything</title>
-        <link>https://www.brendonbrewer.com/blog.html#lbry-support</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#lbry-support</link>
         <description>As my loyal reader knows, I've been into LBRY for a while now after hearing
                 about it from economist Alex Tabarrok. It still has a ways to go to be fully featured
                 and get more adoption, but it's been a fun thing to learn about
@@ -218,7 +231,7 @@
     <item>
         <guid>#busy-busy-busy</guid>
         <title>Busy busy busy</title>
-        <link>https://www.brendonbrewer.com/blog.html#busy-busy-busy</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#busy-busy-busy</link>
         <description>The initial flurry of posts here may have implied that I would
                 be keeping up that rate long term. I can't promise that, but I
                 will try to post regularly still. Things have been pretty busy
@@ -230,7 +243,7 @@
     <item>
         <guid>#eighties-australiana</guid>
         <title>80s Australiana/Nostalgia</title>
-        <link>https://www.brendonbrewer.com/blog.html#eighties-australiana</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#eighties-australiana</link>
         <description>When I lived in Australia, I never really paid much
             attention to the popular pop/rock singers that Australia had
             produced. I think I thought of them (Jimmy Barnes, John Farnham
@@ -239,9 +252,9 @@
 
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#pewdiepie-lbry</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#pewdiepie-lbry</guid>
         <title>How many PewDiePies are there on LBRY?</title>
-        <link>https://www.brendonbrewer.com/blog.html#pewdiepie-lbry</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#pewdiepie-lbry</link>
         <description>Answer: 36. That's 36 people who don't understand the LBRY
                 naming/URL system, which works using a form of auction that
                 provides no incentive to squatting...</description>
@@ -249,9 +262,9 @@
 
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#singing-project</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#singing-project</guid>
         <title>Singing in other people's backyards</title>
-        <link>https://www.brendonbrewer.com/blog.html#singing-project</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#singing-project</link>
         <description>A quote from statistician John Tukey that is a cliché for a
                 reason
                 is "the best thing about being a statistician is that you get
@@ -267,9 +280,9 @@
 
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#using-220-skills</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#using-220-skills</guid>
         <title>Using STATS 220 skills in the wild</title>
-        <link>https://www.brendonbrewer.com/blog.html#using-220-skills</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#using-220-skills</link>
         <description>One of the best and worst things about being an academic is
                 that sometimes you are assigned to teach a course about
                 something you aren't very good at, or in some cases, have
@@ -281,9 +294,9 @@
 
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#maxent-and-homogeneity</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#maxent-and-homogeneity</guid>
         <title>MaxEnt and homogeneity</title>
-        <link>https://www.brendonbrewer.com/blog.html#maxent-and-homogeneity</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#maxent-and-homogeneity</link>
         <description>I'm a bit unusual among Bayesians in that I still think the principle of maximum entropy
                 is both true and (occasionally) useful, and that its critics have thrown out the
                 baby with the bathwater. One of the chapters of my upcoming book,
@@ -292,16 +305,16 @@
     </item>
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#lovely-email-received</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#lovely-email-received</guid>
         <title>Lovely email received!</title>
-        <link>https://www.brendonbrewer.com/blog.html#lovely-email-received</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#lovely-email-received</link>
         <description>This kind of thing makes my day...</description>
     </item>
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#conventions-wide-priors</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#conventions-wide-priors</guid>
         <title>Conventions for wide priors in JAGS/BUGS</title>
-        <link>https://www.brendonbrewer.com/blog.html#conventions-wide-priors</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#conventions-wide-priors</link>
         <description>I'm currently preparing to teach STATS 731, the graduate
                 Bayesian course here.
                 My first lecture was meant to be today but
@@ -312,9 +325,9 @@
     </item>
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#talk-dallas-willard</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#talk-dallas-willard</guid>
         <title>Talk by Dallas Willard about worldviews</title>
-        <link>https://www.brendonbrewer.com/blog.html#talk-dallas-willard</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#talk-dallas-willard</link>
         <description>I recently enjoyed
                 this excellent talk
                 by Dallas Willard, entitled The Nature and
@@ -325,18 +338,18 @@
     </item>
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#trying-maths-here</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#trying-maths-here</guid>
         <title>Trying out maths here</title>
-        <link>https://www.brendonbrewer.com/blog.html#trying-maths-here</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#trying-maths-here</link>
         <description>When I moved my blog over here, I was a bit worried that I
                 wouldn't be able
                 to type \(\LaTeX\) anymore. But that's not the case!...</description>
     </item>
 
     <item>
-        <guid>https://www.brendonbrewer.com/blog.html#retiring-blog</guid>
+        <guid>https://www.brendonbrewer.com/blog2019.html#retiring-blog</guid>
         <title>Retiring the Plausibility Theory blog</title>
-        <link>https://www.brendonbrewer.com/blog.html#retiring-blog</link>
+        <link>https://www.brendonbrewer.com/blog2019.html#retiring-blog</link>
         <description>The other day I bought a domain name for my website, which
                 was fun, and has motivated me to continue simplifying
                 my internet
