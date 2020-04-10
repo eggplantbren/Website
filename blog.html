@@ -62,10 +62,117 @@
         </h1>
 
         <p>
-        This page contains posts from 2020. Unfortunately for you, there
-        aren't any yet. To see posts from 2019,
-        click <a href="blog2019.html">here</a>.</p>
+            This page contains posts from 2020. To see posts from 2019,
+            click <a href="blog2019.html">here</a>.
+        </p>
         <br><hr>
+
+        <div class="post">
+            <a class="blog_title"
+               href="#kitchen-equilibrium"
+               name="kitchen-equilibrium">Equilibrium and the State of the Kitchen</a>
+            <p>2020-04-10</p>
+
+            <p>
+                Hello everyone, and Happy Easter!
+            </p>
+
+            <p>
+                Over the years, I've sometimes had to teach courses that weren't
+                originally in my wheelhouse. Luckily, I've had good heads of
+                department who haven't made me teach things I don't believe in.
+                Sometimes, there's a little bit of that, but I can easily
+                work around it with a sermon. It can be a bit of a challenge
+                teaching material when your own understanding is only at the
+                level of an A or A+ student in that very course.
+            </p>
+
+            <p>
+                The benefit is that you learn new things. My previous
+                best example was SQL, which I learned for STATS 220, and
+                which I have been using a lot recently (I love
+                SQLite, by the way!).
+            </p>
+
+            <p>
+                Another is queueing theory, which is
+                quite a nice subject with interesting and useful
+                results about the lengths of queues. It becomes even better
+                when you overlay your inner
+                Ed Jaynes and understand that time averages and expectations
+                are not the same thing, but that sometimes they equal each
+                other. Basically, queueing theory is about probability
+                distributions over what might happen in a plot like this:
+            </p>
+
+            <p style="text-align: center">
+                <a href="https://brendonbrewer.com/lbrynomics/ytsync_new_pending.svg">
+                <img src="https://brendonbrewer.com/lbrynomics/ytsync_new_pending.svg"
+                     alt="YouTube Sync Queue Graph"
+                     width="750">
+                </a>
+            </p>
+
+            <p>
+                As you can see, the number of people in the queue is
+                constantly fluctuating as new people enter the system (usually at
+                the back of the queue) and leave it (because they've been
+                served). So there's no equilibrium in the sense of
+                \(dy/dt = 0\). However, when only a probability distribution
+                over \(y(t)\) has been specified, you can get equilibrium
+                in a different sense, that \(p\left(y(t)\right)\) does not
+                vary with \(t\). This is like in Markov Chain theory, where
+                the thing that actually converges is the probability distribution
+                for what the state will be,
+                <a href="https://www.johndcook.com/blog/2011/08/10/markov-chains-dont-converge/" target="_blank" rel="noopener noreferrer">not the state itself</a>. The same
+                thing also shows up in statistical mechanics, where
+                canonical distributions (for example) remain static even while
+                particles obviously continue to move around.
+            </p>
+
+            <p>
+                Time averages (e.g., the average length of the queue,
+                \(\bar{y} = \frac{1}{b-a}\int_a^b y(t) dt\)) can
+                also converge in the sense that, if you ask about a long time
+                interval, the probability distribution over the value of
+                the time average, \(p(\bar{y})\),
+                can get really narrow.
+            </p>
+
+            <p>
+                The other day, I was thinking about concepts of equilibrium,
+                and how if the length of the queue is staying basically the
+                same, then by definition the inflows and the outflows must
+                be pretty much equal. I happened to be doing dishes at the time
+                (which is traditionally one of my chores),
+                and realised that the concepts actually applied to the dishes
+                as well.
+            </p>
+
+            <p>
+                If the pile of dishes in and around the sink is not growing
+                or shrinking at a crazy rate, our household must be dirtying
+                them at the same rate as I am cleaning them. That rate is
+                higher lately since we've been stuck at home and cannot order
+                takeaways. Anyway, this realisation gave me an epiphany:
+                <em>apart from an initial transient where I need to work
+                harder, it takes just as much work to maintain the dish pile
+                near zero size as it does to maintain it at a large size</em>.
+                In either case, if the dish pile is stable, my work rate
+                equals the rate at which we are dirtying dishes.
+            </p>
+
+
+            <p>
+                After I realised that, I immediately implemented the transient,
+                and the kitchen has been better ever since.
+                Now, excuse me as there are a couple of dishes in the sink that
+                need doing.
+            </p>
+
+
+
+        </div>
 
 <!--        <div class="post">-->
 <!--            Three things that determine worldview (Tim Keller)-->
