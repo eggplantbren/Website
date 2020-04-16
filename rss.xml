@@ -12,6 +12,20 @@
 
 
    <item>
+        <guid>731-teaching</guid>
+        <title>Teaching STATS 731</title>
+        <link>https://www.brendonbrewer.com/blog.html#731-teaching</link>
+        <description>
+            This semester I'm teaching the entire STATS 731 course, which
+            is graduate Bayesian Inference. As you might expect, I'm having
+            fun with it and putting in random curiosities and sermons to
+            explain why I think certain things (some of which are unusual)...
+        </description>
+    </item>
+
+
+
+   <item>
         <guid>thanks-bat</guid>
         <title>Thanks, BAT Tippers!</title>
         <link>https://www.brendonbrewer.com/blog.html#thanks-bat</link>
