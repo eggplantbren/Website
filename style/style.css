@@ -19,8 +19,8 @@ body
 }
 
 p
-{ padding: 0 0 20px 0;
-  line-height: 1.4em;}
+{ padding: 0 0 15px 0;
+  line-height: 1.5em;}
 
 img
 { border: 0;}
@@ -50,7 +50,7 @@ a.blog_title
 
 div.post
 {
-    padding: 15px 0 15px 0;
+    padding: 15px 0 0 0;
 }
 
 h5, h6
@@ -221,7 +221,7 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 /*  background: url(bullet.png) no-repeat;*/
   margin: 0 2% 0 2%; 
   padding: 0 0 0 0;
-  line-height: 1.4em;}
+  line-height: 1.5em;}
 
 #footer
 { font: normal 10pt 'Roboto', sans-serif;
