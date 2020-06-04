@@ -13,7 +13,7 @@ html
 body
 { font: normal 12pt 'Roboto Medium', 'Open Sans', sans-serif;
   background: #1D1D1D;/* url(header.png) repeat;*/
-  color: #333;
+  color: #000000;
   /*Alter width here: the 3 numbers are - Top, left and right, bottom*/
   padding: 0 20% 5%;
 }
@@ -151,7 +151,7 @@ ol li
 #menubar
 { height: 75px; /* Should equal height + top + bottom padding of ul#menu li a */
   padding: 0 0 0 0;
-  background: #FFD300;} 
+  background: #000066;} 
 
 ul#menu, ul#menu li
 { float: left;
@@ -169,21 +169,21 @@ ul#menu li a
   height: 40px;
   padding: 25px 25px 10px 25px;
   text-align: center;
-  color: #000000;
+  color: #CCCCCC;
   text-transform: uppercase;
   text-decoration: none;
-  background: #FFD300;} 
+  background: #000066;} 
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #000000;
+{ color: #CCCCCC;
   font-weight: bold;
-  background: #FFD300;}
+  background: #000066;}
 
 #site_content
 { overflow: hidden;
   margin: 0 auto 0 auto;
   padding-bottom: 1em;
-  background: #EEE;} 
+  background: #BBBBBB;} 
 
 .sidebar
 { float: right;
@@ -230,17 +230,17 @@ ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 20px 0 8px 2%;
   overflow: hidden;
   text-align: left; 
-  background: #FFD300;
-  color: #000;
+  background: #000066;
+  color: #CCCCCC;
 /*  text-transform: uppercase;*/
   letter-spacing: 0.1em;}
 
 #footer a
-{ color: #000;
+{ color: #CCCCCC;
   text-decoration: none;}
 
 #footer a:hover
-{ color: #000;
+{ color: #CCCCCC;
   text-decoration: underline;}
 
 .search
