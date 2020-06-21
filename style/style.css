@@ -341,3 +341,37 @@ table tr td
   padding: 0 2% 5%;
   }
 }
+
+
+/* Not tested in all pages but should work */
+body {
+   font: normal 12pt 'Roboto', 'Open Sans', sans-serif; /* Medium was to bold */
+   color: #555; /* The text was too dark */
+}
+#main {
+   max-width: 1200px;/* The page was too wide */
+}
+#site_content {
+   background: #ccc; /* Background was too dark */
+}
+img {
+   width: 30vmax; /* This is better for responsiveness */
+   max-width: 32em; /* This prevents the image getting too big */
+   padding: 0 2em 0.5em 0; /* Padding at the top make text look out of line */
+   /* height: 24.5em; < You don't need this */
+}
+img.rss { width: 30px }
+
+/*
+Makes the site fully responsive.
+Had to use !important on dev tools version. Remove if you don't need it
+*/
+@media (max-width:900px) {
+  img {
+    display:block!important;  
+    width:100%!important;
+    float:none!important;
+    text-align:center!important;
+    margin:auto!important;
+    padding:10px 0 20px 0!important;
+}}
