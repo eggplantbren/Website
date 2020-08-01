@@ -93,11 +93,31 @@
             <p>
                 Oops, I did it again.
             </p>
+
             <img src="https://i.kym-cdn.com/photos/images/original/000/242/631/382.gif"
-                 width="300" alt="Ron Paul It's Happening">
+                 width="300" alt="Ron Paul It's Happening"
+                 style="padding-bottom: 1em;">
+
             <p>
-                Since I obtained some proficiency with SQLite, 
+                This came about because I gained some proficiency with SQLite,
+                and realised that (a) it would be a better way of saving outputs
+                than my old method of multiple text files, and (b) indexing
+                would speed up many Nested Sampling operations, which by
+                definition involve sorting. I tried for several months to come
+                up with something that outperformed DNest4, but didn't succeed,
+                so re-implemented the same algorithm with the SQLite database
+                as output.
             </p>
+
+            <p>
+                Other features I have implemented or hope to implement soon
+                include:
+            </p>
+
+            <ul>
+                <li>Configuration via a YAML file instead of a home-spun
+                    plain text format;</li>
+            </ul>
 
         </div>
 
