@@ -110,13 +110,28 @@
             </p>
 
             <p>
-                Other features I have implemented or hope to implement soon
-                include:
+                Some improvements that I have already implemented are:
             </p>
 
             <ul>
-                <li>Configuration via a YAML file instead of a home-spun
-                    plain text format;</li>
+                <li>Configuration is via a single YAML file instead DNest4's
+                    method of a mixture of a home-spun
+                    plain text format with command line options;</li>
+                <li>DNest4 saves particles infrequently to avoid taking up
+                    too much disk space. In DNest5, this is true of
+                    "full particles" including parameters, but metadata only
+                    (log likelihoods etc) can be saved more frequently;</li>
+                <li>A lot of the source code is cleaner, simply because I got
+                    better at C++. DNest5 is written in a header-only style.</li>
+                <li>
+            </ul>
+
+            <p>
+                Some that are coming soon are:
+            </p>
+            <ul>
+                <li>Model specification in a YAML file, so users can run
+                    analyses without doing any programming at all;</li>
             </ul>
 
         </div>
