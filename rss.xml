@@ -11,6 +11,19 @@
                  Brendon J. Brewer</description>
 
     <item>
+        <guid>dnest5-released</guid>
+        <title>DNest5 Has Been Released</title>
+        <link>https://www.brendonbrewer.com/blog.html#dnest5-released</link>
+        <description>
+            And is available here.
+            It works really well, but I do plan to implement some more
+            features and examples over time. Any feedback would be welcome!
+        </description>
+
+    </item>
+
+
+    <item>
         <guid>ten-thousand</guid>
         <title>Ten Thousand</title>
         <link>https://www.brendonbrewer.com/blog.html#ten-thousand</link>
