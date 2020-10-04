@@ -10,6 +10,24 @@
     <description>Bayesian statistics and other things of interest to
                  Brendon J. Brewer</description>
 
+
+    <item>
+        <guid>keller-beliefs</guid>
+        <title>Three Determinants of Belief According to Tim Keller</title>
+        <link>https://www.brendonbrewer.com/blog.html#keller-beliefs</link>
+        <description>
+                Recently I was talking to a friend about a hot topic which
+                smart people disagree about strongly, and he noted that it was
+                evidence for a pessimistic view of reason (e.g., as
+                described by Jonathan Haidt's metaphor of the elephant and the
+                rider). That's definitely true --- if humans were so good
+                at reasoning we'd be able to write Haskell programs without
+                needing the compiler to tell us about errors --- but it
+                also reminded me of some recent wisdom I got from Tim Keller.
+        </description>
+
+    </item>
+
     <item>
         <guid>dnest5-released</guid>
         <title>DNest5 Has Been Released</title>
