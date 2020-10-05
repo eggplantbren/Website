@@ -12,6 +12,21 @@
 
 
     <item>
+        <guid>hot-property</guid>
+        <title>Hot Property!</title>
+        <link>https://www.brendonbrewer.com/blog.html#hot-property</link>
+        <description>
+                I've blogged before about the LBRY naming system, which
+                I think is very clever. With the introduction of reposts (like
+                retweets on Twitter), I realised it is possible to obtain nice, easy
+                URLs to point to the existing content, like a shortcut.
+                The other day I decided to get some good ones for some of
+                my publications, so now I have the following:
+        </description>
+    </item>
+
+
+    <item>
         <guid>keller-beliefs</guid>
         <title>Three Determinants of Belief According to Tim Keller</title>
         <link>https://www.brendonbrewer.com/blog.html#keller-beliefs</link>
