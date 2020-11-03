@@ -12,6 +12,22 @@
 
 
     <item>
+        <guid>tech-over-tea</guid>
+        <title>My Appearance on Tech Over Tea with Brodie Robertson</title>
+        <link>https://www.brendonbrewer.com/blog.html#tech-over-tea</link>
+        <description>
+            Brodie Robertson
+            is an Australian computer science
+            student who produces videos about computing, with a focus on
+            Linux. I recently appeared on his Tech Over Tea podcast, and
+            we talked about a range of computing topics, and a lot about
+            LBRY, which is an interest we share in common.
+            You can listen to the episode here. I hope you enjoy it!
+        </description>
+    </item>
+
+
+    <item>
         <guid>hot-property</guid>
         <title>Hot Property!</title>
         <link>https://www.brendonbrewer.com/blog.html#hot-property</link>
