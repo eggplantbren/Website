@@ -12,6 +12,16 @@
 
 
     <item>
+        <guid>an-eventful-week</guid>
+        <title>An Eventful Week</title>
+        <link>https://www.brendonbrewer.com/blog.html#an-eventful-week</link>
+        <description>
+            It's been quite a productive and eventful week for me, and I
+            wanted to share why. Here are a few things that happened:
+        </description>
+    </item>
+
+    <item>
         <guid>tech-over-tea</guid>
         <title>My Appearance on Tech Over Tea with Brodie Robertson</title>
         <link>https://www.brendonbrewer.com/blog.html#tech-over-tea</link>
